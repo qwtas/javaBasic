@@ -11,9 +11,9 @@ public class Test0527Circle02 {
             System.out.println("你输入的半径有误!");
         }
         else{
-            Circle oCir = new Circle(iRadius);
-            System.out.println("圆的周长为："+oCir.getLength());
-            System.out.println("圆的面积为："+oCir.getArea());
+            Circle circle = new Circle(iRadius);
+            System.out.println("圆的周长为："+circle.getLength());
+            System.out.println("圆的面积为："+circle.getArea());
         }
 
 
