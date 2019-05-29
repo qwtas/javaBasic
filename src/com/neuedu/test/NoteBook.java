@@ -9,10 +9,10 @@ public class NoteBook {
     //无参
     public NoteBook(){
         color='黑';
-        cpu=002;
+        cpu=1050;
     }
     //有参
-    public NoteBook(char    color,int   cpu){
+    public NoteBook(char color,int cpu){
         this.color=color;
         this.cpu=cpu;
     }
