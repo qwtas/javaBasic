@@ -3,7 +3,7 @@ package com.neuedu.test;
 import java.util.Scanner;
 
 public class Test0524 {
-   // public static void main(String[] args) {
+     public static void main(String[] args) {
         /*int x = 0;        //定义水仙花数的个数
         for(int i=100;i<=999;i++){
             int b = i/100;        //取得百位数
@@ -31,21 +31,23 @@ public class Test0524 {
         }*/
 
 
-        /*int i = 0;//保存到百位上的数字
-        int j = 0;//保存到十位上的数字
-        int k = 0;//保存到个位上的数字
-        int t = 0;//保存数字的个数
-        for(i = 1; i <= 4; i++) {
-            for(j = 1; j <= 4; j++) {
-                for(k = 1; k <= 4; k++) {
-                    if(i != j&& j != k && i!= k) {
-                        t += 1;
-                        System.out.println(i*100 + j*10 + k);
-                    }
+    int i = 0;//保存到百位上的数字
+    int j = 0;//保存到十位上的数字
+    int k = 0;//保存到个位上的数字
+    int t = 0;//保存数字的个数
+        for(i =1;i <=4;i++)
+
+    {
+        for (j = 1; j <= 4; j++) {
+            for (k = 1; k <= 4; k++) {
+                if (i != j && j != k && i != k) {
+                    t += 1;
+                    System.out.println(i * 100 + j * 10 + k);
                 }
             }
         }
-        System.out.println("总共能够组成" + t + "个数字！");*/
+    }
+        System.out.println("总共能够组成"+t+"个数字！");
 
    /*int i=1*2*3*4*5*6*7*8*9;
         System.out.println(i);*/
@@ -91,7 +93,7 @@ public class Test0524 {
         else {
             System.out.println(i+"是平年");
         }*/
-        public static void main(String[] args) throws Exception{
+        /*public static void main(String[] args) throws Exception{
         char a = (char)System.in.read();
        if (a>='a'&&a<='z'){
             a-=32 ;
@@ -100,7 +102,7 @@ public class Test0524 {
             a+=32;
             System.out.println(a);
         }
-    }
+    }*/
 
 
 
@@ -129,4 +131,4 @@ public class Test0524 {
 
 
 
-}
+}}
